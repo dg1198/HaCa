@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Care App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- Add any additional CSS or external stylesheets here -->
+    <style>
+        /* Additional CSS styles specific to this template */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px 0;
+        }
+        .logo {
+            font-size: 24px;
+            color: #333;
+            margin: 0;
+        }
+        .navigation {
+            float: right;
+        }
+        .nav-links li {
+            display: inline;
+            margin-left: 20px;
+        }
+        .nav-links li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('{{ url_for("static", filename="hero-background.jpg") }}');
+            background-size: cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero-title {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero-description {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .btn-primary {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #333;
+        }
+        .feature-item {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .feature-image {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .feature-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .feature-description {
+            font-size: 16px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Hair Care App</h1>
+            <nav class="navigation">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Discover the Best Hair Products</h2>
+            <p class="hero-description">Find the perfect shampoo, conditioner, serums, oils, and more for your hair type.</p>
+            <a href="/questionnaire" class="btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Our Features</h2>
+            <div class="feature-item">
+                <img src="{{ url_for('static', filename='feature1.jpg') }}" alt="Feature 1" class="feature-image">
+                <h3 class="feature-title">Personalized Recommendations</h3>
+                <p class="feature-description">Receive personalized product recommendations based on your hair type and preferences.</p>
+            </div>
+            <div class="feature-item">
+                <img src="{{ url_for('static', filename='feature2.jpg') }}" alt="Feature 2" class="feature-image">
+                <h3 class="feature-title">Expert Advice</h3>
+                <p class="feature-description">Get expert tips and advice on hair care from industry professionals.</p>
+            </div>
+            <div class="feature-item">
+                <img src="{{ url_for('static', filename='feature3.jpg') }}" alt="Feature 3" class="feature-image">
+                <h3 class="feature-title">Product Reviews</h3>
+                <p class="feature-description">Read reviews from real users and make informed decisions about hair products.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hair Care App. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

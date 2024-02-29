@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Care App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Global styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Header styles */
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 24px;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-left: 20px;
+            font-weight: 600;
+        }
+        .navigation {
+            float: right;
+            margin-right: 20px;
+        }
+        .nav-links li {
+            display: inline;
+            margin-left: 20px;
+        }
+        .nav-links li a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nav-links li a:hover {
+            color: #ff6f61;
+        }
+        /* Hero section styles */
+        .hero {
+            background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x600');
+            background-size: cover;
+            height: 100vh;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        /* Features section styles */
+        .features {
+            padding: 100px 0;
+            text-align: center;
+        }
+        .feature-item {
+            margin-bottom: 40px;
+        }
+        .feature-item img {
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .feature-item h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .feature-item p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 100px;
+        }
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1 class="logo">Hair Care App</h1>
+        <nav class="navigation">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>Discover the Best Hair Products</h1>
+        <p>Find the perfect shampoo, conditioner, serums, oils, and more for your hair type.</p>
+        <a href="/questionnaire" class="btn-primary">Get Started</a>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/200" alt="Feature 1">
+            <h2>Personalized Recommendations</h2>
+            <p>Receive personalized product recommendations based on your hair type and preferences.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/200" alt="Feature 2">
+            <h2>Expert Advice</h2>
+            <p>Get expert tips and advice on hair care from industry professionals.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://via.placeholder.com/200" alt="Feature 3">
+            <h2>Product Reviews</h2>
+            <p>Read reviews from real users and make informed decisions about hair products.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Hair Care App. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
