@@ -31,3 +31,19 @@ HAIRKRAFT is a web application designed to provide personalized hair care produc
    python app.py
 4. **Access the app in your browser:**
    - Open http://127.0.0.1:5000 in your web browser
+     
+##Usage
+
+   - Navigate to the home page to view hair care products.
+   - Use the questionnaire to get personalized product recommendations.
+   - Browse through different product categories: shampoos, conditioners, serums, oils, creams, and gels.
+
+##Contributing
+
+   - Contributions are welcome! Please feel free to submit a pull request or report issues.
+     
+##License
+
+   - This project is licensed under the MIT License - see the LICENSE file for details.
+     
+
