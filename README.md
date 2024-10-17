@@ -1,6 +1,6 @@
 # HAIRKRAFT
 
-HAIRKRAFT is a web application designed to provide personalized hair care product recommendations based on users' hair types. The app includes detailed information about various hair care products, including shampoos, conditioners, serums, oils, creams, and gels.
+HAIRKRAFT is a web application designed to provide personalized hair care product recommendations based on user's hair types. The app includes detailed information about various hair care products, including shampoos, conditioners, serums, oils, creams, and gels.
 
 ## Features
 
