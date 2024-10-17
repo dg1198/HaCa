@@ -27,7 +27,7 @@ HAIRKRAFT is a web application designed to provide personalized hair care produc
    pip install Flask-MySQLdb
 
 3. **Run the application:**
-   -Execute the main application file:
+   - Execute the main application file:
    python app.py
 4. **Access the app in your browser:**
-   -Open http://127.0.0.1:5000 in your web browser
+   - Open http://127.0.0.1:5000 in your web browser
